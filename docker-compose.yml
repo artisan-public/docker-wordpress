@@ -20,4 +20,4 @@ services:
        WORDPRESS_DB_USER: $WORDPRESS_DB_USER
        WORDPRESS_DB_PASSWORD: $WORDPRESS_DB_PASSWORD
      volumes:
-      - ./wordpress/wp-content/themes/twentytwentyfour/:/var/www/html/wp-content/themes/twentytwentyfour
+      - ./wordpress/wp-content/themes/twentytwentyfour:/var/www/html/wp-content/themes/twentytwentyfour
